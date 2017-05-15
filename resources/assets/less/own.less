@@ -1,0 +1,92 @@
+body {
+	background-color: #4f7d5e;
+	font-family: 'Open Sans';
+}
+
+header {
+	height: 50px;
+	width: 100%;
+	background-color: #50e281;
+	background-image: none;
+	z-index: 10;
+	position: relative;
+
+	.social {
+		float: right;
+		color: rgba(255, 255, 255, 0.8);
+		font-size: 28px;
+		line-height: 28px;
+		padding: 10px 15px 5px 15px;
+
+		&:hover {
+			color: rgba(255, 255, 255, 1);
+		}
+	}
+}
+
+#test {
+	background-color: #4f5b53;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 80%;
+	margin: 0px 10% 0px 10%;
+	min-height: 100vh;
+	margin-top: -50px;
+	z-index: 5;
+	position: relative;
+
+	h1 {
+		margin-bottom: 30px;
+	}
+
+	.row.buttons {
+		margin-top: 30px;
+	}
+}
+
+
+.item {
+	display: inline-block;
+	width: 60%;
+	font-weight: lighter;
+}
+
+
+h2 {
+	font-weight: lighter;
+	font-family: 'Open Sans';
+	text-transform: none;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+
+.result {
+	font-size: 12px;
+
+	.fa {
+		font-size: 24px;
+		display: inline-block;
+		width: 36px;
+		text-align: center;
+		vertical-align: -5px;
+	}
+
+	&.equal {
+		.fa {
+			color: white;
+		}
+	}
+	&.positive {
+		.fa {
+			color: #50ea80;
+		}
+	}
+	&.negative {
+		.fa {
+			color: red;
+		}
+	}
+}
